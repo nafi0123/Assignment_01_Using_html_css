@@ -44,6 +44,7 @@
 .btn-link {
   text-decoration: none;
   color: #FFFFFF;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -59,6 +60,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav h4 {
@@ -66,6 +68,7 @@ nav h4 {
   margin-bottom: 50px;
   margin-left: 150px;
   font-size: 34px;
+  color: #4E47FF;
 
 }
 
@@ -177,4 +180,99 @@ nav button {
 .des1{
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
+}
+
+.head{
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.ca-head{
+  font-size: 24px ;
+  font-weight: 600;
+  color: black;
+}
+
+.card-des{
+  font-size: 16px;
+  color: #1E1E1E;
+
+}
+
+.ddd{
+  display: flex;
+  margin-top: 24px;
+}
+.ddd img{
+  border-radius: 50%;
+  
+}
+.card{
+  width: 366px;
+  height: 243px;
+  padding: 24px ;
+  padding-bottom: 5px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.card-tille{
+  padding-left: 151px;
+  padding-right: 149px;
+  margin-bottom: 137px;
+}
+
+.hhh{
+  color: #757575;
+}
+
+.ccc{
+  color: #B3B3B3;
+  padding-left: 40px;
+
+
+}
+
+.focus{
+  width: 1140px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 14px;
+  margin-top: 137px;
+  margin-bottom: 92px;
+}
+
+.focus-tille{
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 71px;
+
+  margin-bottom: 20px;
+}
+
+.focus-des{
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.tamp--{
+  margin-bottom: 10px;
+}
+
+.focus-img{
+  width: 840px;
+  height: auto;
+  border-radius: 48px;
+  margin-bottom: 71px;
+  margin-left: 150px;
+
 }
