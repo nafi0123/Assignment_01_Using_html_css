@@ -40,6 +40,12 @@
 
 
 }
+button:hover{
+  background-color: yellow;
+}
+button a:hover{
+  color: black;
+}
 
 .btn-link {
   text-decoration: none;
@@ -139,11 +145,11 @@ nav button {
   margin-bottom: 15px;
 }
 
-.productive-data{
+.productive-data {
   display: flex;
 }
 
-.productive-section{
+.productive-section {
   background-color: rgba(78, 71, 255, 0.1);
   width: 1016px;
   height: auto;
@@ -152,96 +158,98 @@ nav button {
   margin-bottom: 137px;
 }
 
-.productive-title{
+.productive-title {
   color: #252432;
   font-size: 38px;
   font-weight: bold;
   margin-top: 60px;
-  
+
 
 }
 
-.productive-div{
-  padding:  80px 50px ;
+.productive-div {
+  padding: 80px 50px;
 }
 
-.productive-data{
+.productive-data {
   justify-content: space-around;
   margin-bottom: 50px;
 
 }
 
-.data1{
+.data1 {
   font-size: 80px;
   font-weight: bold;
   color: #4E47FF;
 }
 
-.des1{
+.des1 {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
 }
 
-.head{
+.head {
   font-size: 42px;
   font-weight: bold;
   margin-bottom: 50px;
 }
 
-.cards{
+.cards {
   display: flex;
   justify-content: space-around;
   gap: 20px;
 }
 
-.ca-head{
-  font-size: 24px ;
+.ca-head {
+  font-size: 24px;
   font-weight: 600;
   color: black;
 }
 
-.card-des{
+.card-des {
   font-size: 16px;
   color: #1E1E1E;
 
 }
 
-.ddd{
+.ddd {
   display: flex;
   margin-top: 24px;
 }
-.ddd img{
+
+.ddd img {
   border-radius: 50%;
-  
+
 }
-.card{
+
+.card {
   width: 366px;
   height: 243px;
-  padding: 24px ;
+  padding: 24px;
   padding-bottom: 5px;
   background-color: #FFFFFF;
   border-radius: 24px;
   box-shadow: rgba(0, 0, 0, 0.1);
 }
 
-.card-tille{
+.card-tille {
   padding-left: 151px;
   padding-right: 149px;
   margin-bottom: 137px;
 }
 
-.hhh{
+.hhh {
   color: #757575;
 }
 
-.ccc{
+.ccc {
   color: #B3B3B3;
   padding-left: 40px;
 
 
 }
 
-.focus{
+.focus {
   width: 1140px;
   background-color: #FFFFFF;
   margin: 0 auto;
@@ -250,7 +258,7 @@ nav button {
   margin-bottom: 92px;
 }
 
-.focus-tille{
+.focus-tille {
   font-size: 50px;
   font-weight: bold;
   padding-top: 71px;
@@ -258,21 +266,126 @@ nav button {
   margin-bottom: 20px;
 }
 
-.focus-des{
+.focus-des {
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
   font-size: 16px;
 }
 
-.tamp--{
+.tamp-- {
   margin-bottom: 10px;
 }
 
-.focus-img{
+.focus-img {
   width: 840px;
   height: auto;
   border-radius: 48px;
   margin-bottom: 71px;
   margin-left: 150px;
 
+}
+
+.form {
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+
+.div-coloms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.colom-tille {
+  font-size: 92px;
+  font-weight: bold;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.div-colom {
+  width: 50%;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+form input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+form button{
+  width: 100%;
+  margin-top: 5px;
+  margin-right: 0;
+}
+
+form textarea {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  height: 135px;
+}
+
+/* footer area */
+
+footer{
+  background-color: #FFFFFF;
+  padding: 104px 455px 103px 454px;
+
+
+}
+footer ul li{
+    list-style: none;
+
+  display: inline; 
+  margin-right: 25px;
+  
+  
+
+
+  
+}
+footer ul {
+  margin-left: 70px;
+
+}
+footer ul a{
+  text-decoration: none;
+  color: #8987A1;
+    
+}
+
+.footer-tille {
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.footer-p{
+  margin-bottom: 20px;
+  color: #8987A1;
+  font-size: 16px;
+  width: 538px;
 }
