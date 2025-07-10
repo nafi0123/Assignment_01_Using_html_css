@@ -1,4 +1,3 @@
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -17,32 +16,39 @@
     "wdth" 100;
 }
 
-*{
+* {
   margin: 0;
 
   padding: 0;
 }
-.text-primary{
+
+.text-primary {
   text-align: center;
 }
 
-.btn-primary{
+.dark1 {
+
+  color: rgba(37, 36, 50, 0.5);
+
+}
+
+.btn-primary {
   background-color: #4E47FF;
   padding: 12px 36px;
   border: none;
   border-radius: 5px;
-  
+
 
 }
 
-.btn-link{
+.btn-link {
   text-decoration: none;
   color: #FFFFFF;
   font-weight: bold;
 }
 
 
-.header-bg{
+.header-bg {
   background-image: url(../Assets/Hero-bg.png);
   background-repeat: no-repeat;
   height: 698px;
@@ -50,31 +56,31 @@
 
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
 }
 
-nav h4{
+nav h4 {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 150px;
   font-size: 34px;
-  
+
 }
 
-nav button{
+nav button {
   margin-right: 150px;
   margin-top: 51px;
 
 }
 
-.clear{
+.clear {
   clear: both;
 }
 
 
-.banner{
+.banner {
   width: 905px;
   height: 237px;
   text-align: center;
@@ -86,22 +92,23 @@ nav button{
   margin: 0 auto;
 }
 
-.btn-temp{
+.btn-temp {
   margin-bottom: 152px;
   margin-top: 37px;
 }
 
-.header-tiltle{
+.header-tiltle {
   font-weight: bold;
   font-size: 65px;
 }
 
 /* main section */
 
-.main-bg{
+.main-bg {
   background-color: rgba(78, 71, 255, 0.1);
 }
-.action-des{
+
+.action-des {
   display: flex;
   justify-content: space-between;
   margin: 116px 173px 116px 141px;
@@ -109,22 +116,64 @@ nav button{
   gap: 206px;
 }
 
-.act-img{
-  width: 428px; 
+.act-img {
+  width: 428px;
   height: auto;
   border-radius: 48px;
 
 }
 
-.act-title{
+.act-title {
   font-size: 42px;
   font-weight: bold;
 }
 
-.des{
+
+
+.des {
   font-size: 24px;
   color: rgba(37, 36, 50, 0.5);
   margin-bottom: 15px;
 }
 
+.productive-data{
+  display: flex;
+}
 
+.productive-section{
+  background-color: rgba(78, 71, 255, 0.1);
+  width: 1016px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 24px;
+  margin-bottom: 137px;
+}
+
+.productive-title{
+  color: #252432;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 60px;
+  
+
+}
+
+.productive-div{
+  padding:  80px 50px ;
+}
+
+.productive-data{
+  justify-content: space-around;
+  margin-bottom: 50px;
+
+}
+
+.data1{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.des1{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
