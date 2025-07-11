@@ -57,8 +57,9 @@ button a:hover{
 
 .header-bg {
   background-image: url(../Assets/Hero-bg.png);
-  background-repeat: no-repeat;
-  height: 698px;
+
+      height: 400px;
+    padding: 30px 40px;
 
 
 }
