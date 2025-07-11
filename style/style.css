@@ -384,6 +384,7 @@ footer{
     padding-top: 104px;
     padding-bottom: 104px;
     max-width: 1340px;
+    margin: 0 auto;
 }
 footer a{
     text-decoration: none;
