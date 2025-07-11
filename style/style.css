@@ -22,10 +22,15 @@
   padding: 0;
 }
 
-body{
+main{
   max-width: 1140px;
   margin: 0 auto;
 }
+
+
+
+
+
 .text-primary {
   text-align: center;
 }
@@ -357,6 +362,7 @@ form textarea {
 footer{
   background-color: #FFFFFF;
   padding: 104px 455px 103px 454px;
+
 
 
 }
