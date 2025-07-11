@@ -40,10 +40,12 @@
 
 
 }
-button:hover{
+
+button:hover {
   background-color: yellow;
 }
-button a:hover{
+
+button a:hover {
   color: black;
 }
 
@@ -58,8 +60,9 @@ button a:hover{
 .header-bg {
   background-image: url(../Assets/Hero-bg.png);
 
-      height: 400px;
-    padding: 30px 40px;
+  height: 400px;
+  padding: 30px 40px;
+  text-align: center;
 
 
 }
@@ -67,18 +70,18 @@ button a:hover{
 nav {
   display: flex;
   justify-content: space-between;
-  
+
   align-items: center;
-  
-  
+
+
 }
 
 nav h4 {
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 150px; 
+  margin-left: 150px;
   font-size: 34px;
-    align-items: center;
+  align-items: center;
 
   color: #4E47FF;
 
@@ -87,7 +90,7 @@ nav h4 {
 nav button {
   margin-right: 150px;
   margin-top: 15px;
-    
+
 
 
 }
@@ -340,7 +343,7 @@ form input {
   box-sizing: border-box;
 }
 
-form button{
+form button {
   width: 100%;
   margin-top: 5px;
   margin-right: 0;
@@ -361,38 +364,43 @@ form textarea {
 }
 
 /* footer area */
-footer{
-    background-color: white;
-    padding-top: 104px;
-    padding-bottom: 104px;
+footer {
+  background-color: white;
+  padding-top: 104px;
+  padding-bottom: 104px;
 
 
 }
-footer a{
-    text-decoration: none;
-    color: #8987A1;
-    
+
+footer a {
+  text-decoration: none;
+  color: #8987A1;
+
 }
 
 
 
-.footer-div{
-    text-align: center;
-    
+.footer-div {
+  text-align: center;
+
 }
-.footer-div h1{
-    font-size: 100px;
-    color: rgba(78, 71, 255, 1);
-    margin-bottom: 8px;
-    font-weight: bold;
-    
+
+.footer-div h1 {
+  font-size: 100px;
+  color: rgba(78, 71, 255, 1);
+  margin-bottom: 8px;
+  font-weight: bold;
+
 }
-.footer-div p{
-    color: #8987A1;
-    font-size: 20px;
-    margin-top: 8px;
+
+.footer-div p {
+  color: #8987A1;
+  font-size: 20px;
+  margin-top: 8px;
 }
-.footer-div ul li{
-    display: inline;
-    margin-right:  48px; ;
+
+.footer-div ul li {
+  display: inline;
+  margin-right: 48px;
+  ;
 }
