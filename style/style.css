@@ -21,10 +21,10 @@
 
   padding: 0;
 }
-
-
-
-
+header{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 
 
@@ -79,7 +79,6 @@ button a:hover{
   background-image: url(../Assets/Hero-bg.png);
   background-repeat: no-repeat;
   height: 698px;
-  max-width:  100%;
 
 
 }
