@@ -33,10 +33,7 @@ main{
   margin: 0 auto;
 }
 
-footer{
-  max-width: 1140px;
-  margin: 0 auto;
-}
+
 
 
 
@@ -87,12 +84,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 nav h4 {
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 150px;
+  margin-left: 150px; 
   font-size: 34px;
   color: #4E47FF;
 
@@ -327,7 +325,7 @@ nav button {
 }
 
 .div-colom {
-  width: 50%;
+  max-width: 50%;
 }
 
 form label {
@@ -375,6 +373,8 @@ form textarea {
 footer{
   background-color: #FFFFFF;
   padding: 104px 455px 103px 454px;
+  max-width: 1140px;
+  margin: 0 auto;
 
 
 
