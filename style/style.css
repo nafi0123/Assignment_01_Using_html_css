@@ -22,9 +22,14 @@
   padding: 0;
 }
 
+body{
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
 
 header{
-  max-width: 1340px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -136,7 +141,7 @@ nav button {
 /* main section */
 
 main{
-  max-width: 1340px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
