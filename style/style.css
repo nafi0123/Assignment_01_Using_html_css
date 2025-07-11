@@ -21,6 +21,8 @@
 
   padding: 0;
 }
+
+
 header{
   max-width: 1140px;
   margin: 0 auto;
@@ -28,10 +30,6 @@ header{
 
 
 
-main{
-  max-width: 1140px;
-  margin: 0 auto;
-}
 
 
 
@@ -83,7 +81,9 @@ button a:hover{
 nav {
   display: flex;
   justify-content: space-between;
+  
   align-items: center;
+  
   
 }
 
@@ -92,13 +92,17 @@ nav h4 {
   margin-bottom: 50px;
   margin-left: 150px; 
   font-size: 34px;
+    align-items: center;
+
   color: #4E47FF;
 
 }
 
 nav button {
   margin-right: 150px;
-  margin-top: 51px;
+  margin-top: 15px;
+    
+
 
 }
 
