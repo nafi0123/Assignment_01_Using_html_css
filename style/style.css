@@ -22,6 +22,10 @@
   padding: 0;
 }
 
+body{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .text-primary {
   text-align: center;
 }
