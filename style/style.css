@@ -388,6 +388,8 @@ footer{
     background-color: white;
     padding-top: 104px;
     padding-bottom: 104px;
+    max-width: 1140px;
+    margin: 0 auto;
 
 }
 footer a{
